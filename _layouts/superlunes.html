@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article id="main">
+
+  <header>
+    <img class="image" src="/images/400superlunes.png"></img>
+    <br>
+    <br>
+    <h3>Comienza la semana con una frase motivadora</h3>
+  </header>
+
+</article>
+<br>
+<br>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+    <center>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+
+     <blockquote>{{ post.description }}</blockquote>
+    <hr width="20%" />
+      </center>
+<br>
+<br>
+
+    </li>
+  {% endfor %}
+</ul>
