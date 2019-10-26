@@ -6,7 +6,7 @@ title: Lormez Audio Studio
 description: |
   Producción de Podcast
 owner: Laura (@lormez16) # or company name
-email: lormez16@gmail.com
+email: lormez16@protonmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lormez16.github.io" # the base hostname & protocol for your site
 social:
@@ -15,10 +15,10 @@ social:
   #linkedin-square: https://linkedin.com/in/<username>
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
-  email: /contact/lormez16@gmail.com
+  email: /contact/lormez16@protonmail.com
   #flickr:
   #instagram:
-  #youtube-square:
+  youtube-square: https://www.youtube.com/channel/UCvpN4r09FFi9O9JkwEwofgw?view_as=subscriber
   #spotify:
   #stack-overflow:
   #vimeo:
